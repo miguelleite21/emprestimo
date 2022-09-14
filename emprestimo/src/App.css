@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+input,
+select {
+  height: 60px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  background-color: #21ae1e;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #165a15;
+}
+button[type="submit"] {
+  background-color: #f3a126;
+}
+
+button[type="submit"]:hover {
+  background-color: #f0b146;
+}
+form {
+  height: 500px;
+  width: 900px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+label {
+  color: red;
+}
+
+h2 {
+  color: #8f99a6;
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.infos {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 900px;
+}
+
+table {
+  font-family: "Open Sans", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border-bottom: 1px solid #c4c4c4;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: #21ae1e;
+}
